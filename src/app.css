@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #121212, #1a1a1a, #121212);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  color: #eee;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
